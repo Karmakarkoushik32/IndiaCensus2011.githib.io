@@ -100,7 +100,7 @@ var geojson = L.geoJson(statesData, {
     style: style,
     onEachFeature: onEachFeature
 });
-geojson.getAttribution = function () { return 'Census data &copy; <a href="https://censusindia.gov.in/">Cencus Of India</a>' };
+geojson.getAttribution = function () { return 'Census data &copy; <a href="https://censusindia.gov.in/">Census Of India</a>' };
 geojson.addTo(map);
 //Legend
 
